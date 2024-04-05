@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pydantic-with-psycopg"
+version = "0.1.0"
+description = ""
+authors = ["Dan <dan@apix.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.6.4"
+psycopg = "^3.1.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
